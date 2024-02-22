@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Storm FC⚽</title>
+    <style>
+      body {
+        font-family: "Comic Sans MS";
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
+      }
+
+      header {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+      }
+
+      nav {
+        background-color: #444;
+        padding: 10px;
+        text-align: center;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+      }
+
+      section {
+        padding: 130px 20px 20px;
+        margin-top: 120px;
+      }
+
+      .players {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+
+      .player-card {
+        width: 300px;
+        margin: 15px;
+        background-color: #333;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 10px;
+        box-sizing: border-box;
+        color: yellow;
+      }
+
+      .player-name {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+      }
+
+      th {
+        background-color: #444;
+        color: yellow;
+      }
+
+      .practice-day {
+        background-color: lightblue;
+      }
+      .game-day {
+        background-color: lightblue;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Storm FC - Soccer Team</h1>
+
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#players">Players</a>
+      </nav>
+    </header>
+
+    <section id="home">
+      <center><h1>Welcome to Storm FC</h1></center>
+
+      <p>
+        Welcome to Storm FC, where the thunder of passion meets the lightning of
+        skill on the soccer field! Storm FC is more than just a team; it's a
+        community of dedicated players, coaches, and supporters who share a
+        common love for the beautiful game.
+      </p>
+      <br />
+      <h3>Our Identity:</h3>
+      <p>
+        Storm FC stands out not only for its prowess on the field but also for
+        its distinctive black, yellow, and light blue colors that symbolize
+        strength, energy, and the spirit of teamwork. We take pride in our bold
+        and dynamic identity that reflects the essence of our team.
+      </p>
+      <br />
+      <h3>Meet Our Players:</h3>
+      <p>
+        Our roster boasts a diverse group of talented individuals, each bringing
+        their unique skills and personalities to the field. From skillful
+        forwards to agile midfielders and rock-solid defenders, our players are
+        united by their love for the game and the pursuit of excellence.
+      </p>
+      <br />
+
+      <h3>Passionate Coaching:</h3>
+      <p>
+        Behind every successful team is a dedicated coaching staff, and Storm FC
+        is no exception. Our experienced coaches, armed with a deep
+        understanding of the game, guide and inspire our players to reach new
+        heights. They instill not only technical expertise but also
+        sportsmanship and camaraderie among the team.
+      </p>
+      <br />
+
+      <h3>Practice and Dedication:</h3>
+      <p>
+        At Storm FC, we believe that success is built on the training ground.
+        Our rigorous practice sessions, held on every Tuesday and Thursday,
+        serve as the crucible where skills are honed, strategies are perfected,
+        and the bonds within the team are strengthened.
+      </p>
+      <br />
+
+      <h3>Community Engagement:</h3>
+      <p>
+        Beyond the field, Storm FC is committed to fostering a sense of
+        community. We engage with our fans, organize events, and contribute to
+        the local soccer community. We believe in the power of soccer to bring
+        people together and inspire the next generation of players.
+      </p>
+      <br />
+
+      <h3 id="schedule">Storming into the Future:</h3>
+      <p>
+        As we navigate the competitive landscape of soccer, Storm FC is poised
+        to make waves and leave an indelible mark. With the storm as our symbol,
+        we face challenges head-on, always evolving, always striving for
+        victory. Join us on this exciting journey as we continue to unleash the
+        storm on the soccer field – fierce, determined, and united in the
+        pursuit of greatness. Storm FC: where the game is played with heart,
+        skill, and an unyielding passion for soccer.
+      </p>
+    </section>
+    <section>
+      <h1 id="players">Schedule</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Sun</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th>Sat</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td></td>
+            <td class="practice-day">Practice</td>
+            <td></td>
+            <td class="practice-day">Practice</td>
+            <td></td>
+            <td class="game-day">Game day</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h1>Meet Our Players and Coaches</h1>
+      <div class="players">
+        <div class="player-card">
+          <p class="player-name">Hope</p>
+          <h3>Coach 1</h3>
+          <p>Role: Coach</p>
+        </div>
+        <div class="player-card">
+          <p class="player-name">Jason</p>
+          <h3>Coach 2</h3>
+          <p>Role: Coach</p>
+        </div>
+        <div class="player-card">
+          <p class="player-name">Aaden</p>
+          <h3>Player #10</h3>
+          <p>Position: Forward</p>
+        </div>
+
+        <div class="player-card">
+          <p class="player-name">Aayan</p>
+          <h3>Player #88</h3>
+          <p>Position: Midfielder/GK</p>
+        </div>
+        <div class="player-card">
+          <p class="player-name">Brandon</p>
+          <h3>Player #8</h3>
+          <p>Position: Defender</p>
+        </div>
+        <div class="player-card">
+          <p class="player-name">Yunus</p>
+          <h3>Player #11</h3>
+          <p>Position: Forward</p>
+        </div>
+        <div class="player-card">
+          <p class="player-name">Will</p>
+          <h3>Player #?</h3>
+          <p>Position: Defender</p>
+          <!--Will-->
+        </div>
+        <div class="player-card">
+          <p class="player-name">Caleb</p>
+          <h3>Player #15</h3>
+          <p>Position: Defender</p>
+        </div>
+        <div class="player-card">
+          <p class="player-name">Brendan</p>
+          <h3>Player #33</h3>
+          <p>Position: GK</p>
+        </div>
+        <div class="player-card">
+          <p class="player-name">Daniel A</p>
+          <h3>Player #13</h3>
+          <p>Position: Midfielder</p>
+        </div>
+        <div class="player-card">
+          <p class="player-name">Kendrick</p>
+          <h3>Player #20</h3>
+          <p>Position: Forward/Midfielder</p>
+        </div>
+        <div class="player-card">
+          <p class="player-name">Angelo</p>
+          <h3>Player #?</h3>
+          <p>Position: Forward/Midfielder</p>
+          <!--angelo-->
+        </div>
+        <div class="player-card">
+          <p class="player-name">Nyugab</p>
+          <h3>Player #37</h3>
+          <p>Position: Defender/Midfielder</p>
+        </div>
+        <div class="player-card">
+          <p class="player-name">Quang</p>
+          <h3>Player #5</h3>
+          <p>Position: Defender</p>
+        </div>
+        <div class="player-card">
+          <p class="player-name">Sebastian</p>
+          <h3>Player #9</h3>
+          <p>Position: Forward</p>
+        </div>
+        <div class="player-card">
+          <p class="player-name">Timothy</p>
+          <h3>Player #2</h3>
+          <p>Position: Midfielder</p>
+        </div>
+        <div class="player-card">
+          <p class="player-name">Vivaan</p>
+          <h3>Player #24</h3>
+          <p>Position: Midfielder</p>
+        </div>
+        <div class="player-card">
+          <p class="player-name">Kabeer</p>
+          <h3>Player #18</h3>
+          <p>Position: Forward/Midfielder</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
